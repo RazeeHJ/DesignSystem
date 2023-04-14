@@ -35,5 +35,5 @@ extension DS.Width {
     /// 64 px
     public static let xLarge: Self = .init(value: 64)
     /// 128 px
-    public static let xxLarge: Self = .init(value: 64)
+    public static let xxLarge: Self = .init(value: 128)
 }

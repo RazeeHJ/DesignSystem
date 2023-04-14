@@ -35,7 +35,7 @@ extension DS.Size {
     public static let large: Self = .init(width: .large, height: .large)
     /// 64 px
     public static let xLarge: Self = .init(width: .xLarge, height: .xLarge)
-    /// 124 px
+    /// 128 px
     public static let xxLarge: Self = .init(width: .xxLarge, height: .xxLarge)
 }
 
