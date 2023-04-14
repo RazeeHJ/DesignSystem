@@ -22,7 +22,11 @@ let package = Package(
         .target(
             name: "DesignSystem",
             dependencies: [],
-            path: "Sources"),
+            path: "Sources",
+            resources: [
+                .process("DS.swift")
+            ]
+        ),
         .testTarget(
             name: "DesignSystemTests",
             dependencies: ["DesignSystem"]),
