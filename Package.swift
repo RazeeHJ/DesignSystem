@@ -22,7 +22,10 @@ let package = Package(
         .target(
             name: "DesignSystem",
             dependencies: [],
-            path: "Sources",
+            path: "Sources"
+        ),
+        .target(
+            name: "Tokens",
             resources: [
                 .process("DS.swift")
             ]
