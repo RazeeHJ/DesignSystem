@@ -22,18 +22,20 @@ extension DS.Size {
     /// 4 px
     public static let tiny: Self = .init(width: .tiny, height: .tiny)
     /// 8 px
-    public static let xxSmall: Self = .init(width: .xxSmall, height: .xxSmall)
+    public static let mini: Self = .init(width: .mini, height: .mini)
     /// 12 px
-    public static let xSmall: Self = .init(width: .xSmall, height: .xSmall)
+    public static let xxSmall: Self = .init(width: .xxSmall, height: .xxSmall)
     /// 16px
-    public static let small: Self = .init(width: .small, height: .small)
+    public static let xSmall: Self = .init(width: .xSmall, height: .xSmall)
     /// 24 px
-    public static let medium: Self = .init(width: .medium, height: .medium)
+    public static let small: Self = .init(width: .small, height: .small)
     /// 32 px
-    public static let large: Self = .init(width: .large, height: .large)
+    public static let medium: Self = .init(width: .medium, height: .medium)
     /// 48 px
-    public static let xLarge: Self = .init(width: .xLarge, height: .xLarge)
+    public static let large: Self = .init(width: .large, height: .large)
     /// 64 px
+    public static let xLarge: Self = .init(width: .xLarge, height: .xLarge)
+    /// 124 px
     public static let xxLarge: Self = .init(width: .xxLarge, height: .xxLarge)
 }
 
