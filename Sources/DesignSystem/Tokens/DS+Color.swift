@@ -76,3 +76,9 @@ extension View {
         self.background(Color.ds(color))
     }
 }
+
+extension View {
+    public func dsAccentColor(_ color: DS.Color) -> some View {
+        self.accentColor(Color.ds(color))
+    }
+}
