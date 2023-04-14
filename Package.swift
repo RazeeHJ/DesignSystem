@@ -23,7 +23,7 @@ let package = Package(
             name: "DesignSystem",
             path: "Sources",
             resources: [
-                .copy("DesignSystem/Colors.xcassets")
+                .process("Colors.xcassets")
             ]
         ),
         .testTarget(
