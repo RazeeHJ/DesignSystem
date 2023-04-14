@@ -44,21 +44,21 @@ extension DS.Color {
 }
 
 extension Color {
-    static let primaryLight = Color("primaryLight", bundle: .main)
-    static let primaryMain = Color("primaryMain", bundle: .main)
-    static let primaryDark = Color("primaryDark", bundle: .main)
+    static let primaryLight = Color("primaryLight", bundle: .module)
+    static let primaryMain = Color("primaryMain", bundle: .module)
+    static let primaryDark = Color("primaryDark", bundle: .module)
 
-    static let secondaryLight = Color("secondaryLight", bundle: .main)
-    static let secondaryMain = Color("secondaryMain", bundle: .main)
-    static let secondaryDark = Color("secondaryDark", bundle: .main)
+    static let secondaryLight = Color("secondaryLight", bundle: .module)
+    static let secondaryMain = Color("secondaryMain", bundle: .module)
+    static let secondaryDark = Color("secondaryDark", bundle: .module)
 
-    static let tertiaryLight = Color("tertiaryLight", bundle: .main)
-    static let tertiaryMain = Color("tertiaryMain", bundle: .main)
-    static let tertiaryDark = Color("tertiaryDark", bundle: .main)
+    static let tertiaryLight = Color("tertiaryLight", bundle: .module)
+    static let tertiaryMain = Color("tertiaryMain", bundle: .module)
+    static let tertiaryDark = Color("tertiaryDark", bundle: .module)
     
-    static let neautralWhiteLight = Color("neautralWhiteLight", bundle: .main)
-    static let neautralWhiteMain = Color("neautralWhiteMain", bundle: .main)
-    static let neautralWhiteDark = Color("neautralWhiteDark", bundle: .main)
+    static let neautralWhiteLight = Color("neautralWhiteLight", bundle: .module)
+    static let neautralWhiteMain = Color("neautralWhiteMain", bundle: .module)
+    static let neautralWhiteDark = Color("neautralWhiteDark", bundle: .module)
 }
 
 extension Color {
